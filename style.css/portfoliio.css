@@ -1,4 +1,6 @@
-
+header{
+    background-color: #FFF8F3;
+}
 body{
     font-family: "Open Sans", serif;
   font-optical-sizing: auto;
@@ -6,11 +8,13 @@ body{
   font-style: normal;
   font-variation-settings:
     "wdth" <width>;
+    
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 230px;
 }
 nav  li  {
     display: inline;
@@ -32,12 +36,31 @@ font-weight: 800;
     color: orangered;
 }
 .btn-primary{
-    border-radius: 3px;
+    border-radius: 5px;
 background: #FD6E0A;
 font-size: 20px;
-height: 40px;
-width: 100px;
+padding: 20px 35px;
 color: white;
 border:none;
-
+}
+.Contact{
+    border-color: #FD6E0A;
+    border-radius: 5px;
+background:white ;
+font-size: 20px;
+padding: 19px 34px;
+color:#FD6E0A ;
+}
+div > button {
+    margin: 0px 5px;
+}
+div{
+    padding: 0px 0px;
+    
+    
+}
+.banner{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
 }
