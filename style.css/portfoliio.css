@@ -1,5 +1,16 @@
 header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom right ;
+    
+    
+}
+.developer{
+    padding-bottom: 0px;
+}
+.hardy{
+    padding-top: 0px;
 }
 body{
     font-family: "Open Sans", serif;
@@ -10,11 +21,15 @@ body{
     "wdth" <width>;
     
 }
+.hi{
+    color: #474747;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 230px;
+    padding: 0px 0px;
+    margin: 0px 230px;
 }
 nav  li  {
     display: inline;
@@ -30,6 +45,7 @@ nav li > a{
     color: #181818;
 font-size: 45px;
 font-weight: 800;
+margin: 5px;
 
 }
 .text-primary{
@@ -59,8 +75,45 @@ div{
     
     
 }
+.div-1{
+    padding-left: 230px;
+}
 .banner{
-    display: flex;
+    display: flex ;
     align-items: center ;
     justify-content: space-between;
+}
+
+.main{
+    margin: 130px 230px ;
+    text-align: center;
+}
+.main-pera{
+    color: #474747;
+}
+.About{
+    text-align: center;
+    background-color:#FFF8F3 ;
+    padding: 100px;
+    border-radius: 30px;
+    margin-bottom: 130px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+}
+.info-title{
+    color: #474747;
+    margin: 5px;
+    
+}
+.info-description{
+    margin: 0px;
+}
+.what-i-do{
+
+}
+.skills-container{
+    display: flex;
+    margin-top: 50px;
 }
